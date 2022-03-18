@@ -15,12 +15,11 @@ public class Fibonacci
 		{
 			return n;
 		}
-		
+	
 		if( FibSeq[n-1] != 0 )
 		{
 			F_n1 = FibSeq[n-1];
 		}
-	
 		else
 		{
 			F_n1 = fibonacci(n-1);			
